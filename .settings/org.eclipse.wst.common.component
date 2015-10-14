@@ -2,6 +2,9 @@
     <wb-module deploy-name="PrimeTest">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="primefaces-5.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/sushi/Downloads/primefaces-5.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="PrimeTest"/>
         <property name="java-output-path" value="/PrimeTest/build/classes"/>
     </wb-module>
